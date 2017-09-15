@@ -67,9 +67,9 @@ $db['default']['stricton'] = FALSE;
 */
 
 
-$db['default']['hostname'] = '162.242.248.139';
+$db['default']['hostname'] = '';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'pass.p455.2017';
+$db['default']['password'] = '';
 //$db['default']['password'] = 'pass.p455.2017';
 $db['default']['database'] = 'nanotech';
 $db['default']['dbdriver'] = 'mysql';

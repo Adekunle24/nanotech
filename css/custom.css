@@ -1,0 +1,214 @@
+
+.white>a{
+	color:white !important;
+}
+.padding-5{
+padding-left: 15px !important;
+padding-right: 15px !important;
+
+}
+footer{
+  position: absolute;
+bottom: 5px;
+width: 100%;
+}
+ /* The alert message box */
+.custom-alert {
+    padding: 20px;
+    background-color: #a80d1f !important; /*#f44336;  Red */
+    color: white;
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+} 
+
+.myTab>li{
+	background-color:red !important;
+}
+.search a{width:30px; height:29px; display:inline-block; background-image:url(../images/search.png); background-repeat:no-repeat;}
+.search{float:right; margin:13px 10px 13px 0; padding:13px 12px 13px 0; border-right:1px solid #fff;}
+.search-field{display:none; background-color:red; padding:10px; text-align:center;}
+.search-field input[type="text"]{margin-bottom:8px;}
+.search-btn{background-color:#000; color:#fff; border:1px solid #fff;padding:5px 20px; margin:0 auto;}
+.search-btn:hover{background-color:#fff; color:red;}
+.menu-btn{cursor:pointer; float:right;margin:28px 17px;}
+.input-block-level {box-sizing: border-box;display: block;min-height:40px;width: 100%; font-size:15px; border: 1px solid #ddd;}
+.search-btn{background-color:#000; display:inline !important; color:#fff; border:1px solid #fff;padding:5px 20px; margin:0 auto;}
+.search-btn:hover{background-color:#fff; color:red;}
+nav.panel .accordion-heading a {background-color: transparent;border-bottom: 0px solid #4a4949; color:#8a8a8a;}
+nav.panel .accordion-heading a:hover{color:#fff;}
+nav.panel .accordion-inner{background-color: transparent; padding:0; border:none;}
+nav.panel .accordion-body {background-color: #1b1b1b;}
+nav.panel .accordion-inner a {display: block;padding:9px 33px; color:#8a8a8a; font-size:13px; margin:0;}
+nav.panel .accordion-inner a:hover{background-color:#000;color:#fff;}
+.menu-btn{cursor:pointer; float:right;margin:28px 17px;}
+.panel {position: fixed;right:200px;z-index:1000; width: 15.625em; background:#000;}
+.panel ul li a {border-bottom: 1px solid #4a4949;color: #fff;display: block;font-size: 14px;padding: 8px 11px;}
+.panel ul li a:hover{background-color:#008b3a;}
+.panel ul {margin: 22px 0 0;}
+.nav-tabs li:first-child {border-right: medium none;}
+.nav-tabs li label {background-color: red;color: #fff;font-size: 10px;left: -18px;line-height: normal; padding: 1px 21px;position: absolute;top: 2px;    transform: rotate(-28deg); -ms-transform: rotate(-28deg); -webkit-transform: rotate(-28deg); -moz-transform: rotate(-28deg); -o-transform: rotate(-28deg); font-weight:600;}
+.nav-tabs li.active label {background-color: #fff;color:red;}
+.nav-tabs li a:hover .tab-label {background-color: #fff !important;color:red !important;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+
+.panel .menu-link {color: #fff;float: right;font-size:13px;padding: 9px;}
+.menu-link.active + .panel{visibility:visible; }
+h5 {
+  color: red !important;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 8px 0 0px 0;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal dd {
+    margin-left: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 480px) {
+.album-bg{padding:15px 0;}	
+.album-bg .download-play-options{margin:18px 0 0 0;}
+.album-bg .album-detail img{width:30%;}
+.album-name{font-size:21px;}
+.album-singer-name{font-size:15px;}
+.music-list a{font-size:15px;}
+.music-list p{font-size:12px;}
+.music-list .right a{margin:0 2px;}
+.music-list .right .menu-circle{margin-right:5px;}
+.video-thumb img{min-height:100px;}	
+.download-video {left: 10px;top: 10px;}	
+.add-fav {right: 10px;top: 10px;}	
+.btn-white{background-size: 19px auto; padding:12px 14px 12px 36px; background-position:11px 12px; font-size:14px;}
+.create-playlist a{font-size:14px;background-size:18px auto; padding-left: 26px;background-position: 0 22px}
+.img-title{font-size:13px !important;}	
+.singer-name{font-size:9px !important;}
+.nav-tabs > li a{font-size:11px; padding:5px 2px;}   /*RAJESH*/
+.TabbedPanelsTabGroup{margin-bottom:10px;}
+.myplaylist-listing img {width:25%;}
+.logo{width:30%; }
+.search{padding:3px 12px 3px 0; margin:10px 10px 10px 0;}
+.menu-btn{margin:14px 17px;}
+.nav-collapse {-webkit-transform: translate3d(0, 0, 0);}
+
+  .page-header h1 small {
+
+    display: block;
+
+    line-height: 20px;
+
+  }
+
+  input[type="checkbox"],
+
+  input[type="radio"] {
+
+    border: 1px solid #ccc;
+
+  }
+
+  .form-horizontal .control-label {
+
+    float: none;
+
+    width: auto;
+
+    padding-top: 0;
+
+    text-align: left;
+
+  }
+
+  .form-horizontal .controls {
+
+    margin-left: 0;
+
+  }
+
+  .form-horizontal .control-list {
+
+    padding-top: 0;
+
+  }
+
+  .form-horizontal .form-actions {
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+  }
+
+  .media .pull-left,
+
+  .media .pull-right {
+
+    float: none;
+
+    display: block;
+
+    margin-bottom: 10px;
+
+  }
+
+  .media-object {
+
+    margin-right: 0;
+
+    margin-left: 0;
+
+  }
+
+  
+  .carousel-caption {
+
+    position: static;
+
+  }
+
+}

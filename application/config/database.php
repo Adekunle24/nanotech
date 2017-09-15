@@ -67,10 +67,11 @@ $db['default']['stricton'] = FALSE;
 */
 
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = '162.242.248.139';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'omega95';
-$db['default']['database'] = 'footballscan';
+$db['default']['password'] = 'pass.p455.2017';
+//$db['default']['password'] = 'pass.p455.2017';
+$db['default']['database'] = 'nanotech';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
